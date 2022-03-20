@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>DELETE</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="delete.css" />
+   </head>
+   <body>
+      <div class="wrapper">
+         <h2>DELETE</h2>
+         <form action="deletefromtables.php" method="POST">
+            In tabelul: 
+            <select name="tabel">
+               <option value="Clienti">Clienti</option>
+               <option value="Contracte">Contracte</option>
+               <option value="Parteneri">Parteneri</option>
+               <option value="ParteneriProiecte">ParteneriProiecte</option>
+               <option value="Proiecte">Proiecte</option>
+               <option value="Servicii">Servicii</option>
+            </select>
+            <br>
+            Dupa ID-ul: 
+            <select name="column">
+               <option value="idClient">idClient</option>
+               <option value="idContract">idContract</option>
+               <option value="idPartener">idPartener</option>
+               <option value="idProiect">idProiect</option>
+               <option value="idServiciu">idServiciu</option>
+            </select>
+            <br>
+            Introduceti ID-ul: <input type="text" name="search"><br>
+            <input type ="submit" name="submit"><br>
+         </form>
+      </div>
+      <div class="bottom">
+         <a href="welcome.php">Welcome page</a>
+      </div>
+   </body>
+</html>

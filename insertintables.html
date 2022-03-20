@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+   <head lang="en">
+      <meta charset="UTF-8">
+      <title>INSERT</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="insertintables.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <form action="inserintables.php" method="POST">
+         <div class="wrapper">
+            <h2>Proiecte</h2>
+            idProiect:<br>
+            <input type="text" name="idProiect">
+            <br>
+            idClient:<br>
+            <input type="text" name="idClient1">
+            <br>
+            Nume:<br>
+            <input type="text" name="Nume1">
+            <br>
+            Durata:<br>
+            <input type="text" name="Durata">
+            <br>
+            Buget:<br>
+            <input type="text" name="Buget">
+            <br>
+            Profit:<br>
+            <input type="text" name="Profit">
+            <br>
+            <input class= "btn-grad" type="submit" name="save1" value="submit"  style="float:center">
+         </div>
+         <div class="wrapper1">
+            <h2>Clienti</h2>
+            idClient:<br>
+            <input type="text" name="idClient">
+            <br>
+            Nume:<br>
+            <input type="text" name="Nume">
+            <br>
+            Prenume:<br>
+            <input type="text" name="Prenume">
+            <br>
+            CNP:<br>
+            <input type="text" name="CNP">
+            <br>
+            Oras:<br>
+            <input type="text" name="Oras">
+            <br>
+            Sex:<br>
+            <input type="text" name="Sex">
+            <br>
+            Telefon:<br>
+            <input type="text" name="Telefon">
+            <br>
+            Email:<br>
+            <input type="text" name="Email">
+            <br>
+            <input class= "btn-grad" type="submit" name="save" value="submit"  style="float:center">
+         </div>
+         <div class="wrapper2">
+            <h2>Contracte</h2>
+            idContract:<br>
+            <input type="text" name="idContract">
+            <br>
+            idClient:<br>
+            <input type="text" name="idClient2">
+            <br>
+            NumeAchizitor:<br>
+            <input type="text" name="NumeAchizitor">
+            <br>
+            NumePrestator:<br>
+            <input type="text" name="NumePrestator">
+            <br>
+            DataInceput:<br>
+            <input type="text" name="DataInceput">
+            <br>
+            DataSfarsit:<br>
+            <input type="text" name="DataSfarsit">
+            <br>
+            <input class= "btn-grad" type="submit" name="save2" value="submit"  style="float:center">
+         </div>
+         <div class="wrapper3">
+            <h2>Parteneri</h2>
+            idPartener:<br>
+            <input type="text" name="idPartener">
+            <br>
+            Nume:<br>
+            <input type="text" name="Nume3">
+            <br>
+            Tara:<br>
+            <input type="text" name="Tara">
+            <br>
+            Telefon:<br>
+            <input type="text" name="Telefon3">
+            <br>
+            Email:<br>
+            <input type="text" name="Email3">
+            <br>
+            idServiciu:<br>
+            <input type="text" name="idServiciu3">
+            <br>
+            <input class= "btn-grad" type="submit" name="save3" value="submit"  style="float:center">
+         </div>
+         <div class="wrapper4">
+            <h2>Servicii</h2>
+            idServiciu:<br>
+            <input type="text" name="idServiciu">
+            <br>
+            idProiect:<br>
+            <input type="text" name="idProiect4">
+            <br>
+            Nume:<br>
+            <input type="text" name="Nume4">
+            <br>
+            NumeCoordonator:<br>
+            <input type="text" name="NumeCoordonator">
+            <br>
+            NrAngajati:<br>
+            <input type="text" name="NrAngajati">
+            <br>
+            <input class= "btn-grad" type="submit" name="save4" value="submit"  style="float:center">
+         </div>
+      </form>
+   </body>
+   <div class="bottom">
+      <a href="welcome.php">Welcome page</a>
+   </div>
+</html>
+

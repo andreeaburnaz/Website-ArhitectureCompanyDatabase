@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+   <head lang="en">
+      <meta charset="UTF-8">
+      <title>UPDATE</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+      <link rel="stylesheet" href="updatein.css" >
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <form action="updateintables.php" method="POST">
+         <div class="wrapper">
+            <h2>Clienti</h2>
+            Update idClient =  <br>
+            <input type="text" name="idClient" >
+            <br>
+            Modificati infomratiile!<br>
+            Nume:<br>
+            <input type="text" name="Nume">
+            <br>
+            Prenume:<br>
+            <input type="text" name="Prenume">
+            <br>
+            CNP:<br>
+            <input type="text" name="CNP">
+            <br>
+            Oras:<br>
+            <input type="text" name="Oras">
+            <br>
+            Sex:<br>
+            <input type="text" name="Sex">
+            <br>
+            Telefon:<br>
+            <input type="text" name="Telefon">
+            <br>
+            Email:<br>
+            <input type="text" name="Email">
+            <br>
+            <input class= "btn-grad" type="submit" name="save" value="submit"  style="float:center">
+         </div>
+         <div class="wrapper1">
+            <h2>Proiecte</h2>
+            Update idProiect =  <br>
+            <input type="text" name="idProiect"><br>
+            Modificati infomratiile!<br>
+            idClient:<br>
+            <input type="text" name="idClient1">
+            <br>
+            Nume:<br>
+            <input type="text" name="Nume1">
+            <br>
+            Durata:<br>
+            <input type="text" name="Durata">
+            <br>
+            Buget:<br>
+            <input type="text" name="Buget">
+            <br>
+            Profit:<br>
+            <input type="text" name="Profit">
+            <br>
+            <input class= "btn-grad" type="submit" name="save1" value="submit"  style="float:center">
+         </div>
+         <div class="wrapper2">
+            <h2>Contracte</h2>
+            Update idContract =  <br>
+            <input type="text" name="idContract"><br>
+            Modificati infomratiile!<br>
+            idClient:<br>
+            <input type="text" name="idClient2">
+            <br>
+            NumeAchizitor:<br>
+            <input type="text" name="NumeAchizitor">
+            <br>
+            NumePrestator:<br>
+            <input type="text" name="NumePrestator">
+            <br>
+            DataInceput:<br>
+            <input type="text" name="DataInceput">
+            <br>
+            DataSfarsit:<br>
+            <input type="text" name="DataSfarsit">
+            <br>
+            <input class= "btn-grad" type="submit" name="save2" value="submit"  style="float:center">
+         </div>
+      </form>
+   </body>
+   <div class="bottom">
+      <a href="welcome.php">Welcome page</a>
+   </div>
+</html>
